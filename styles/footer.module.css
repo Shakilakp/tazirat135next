@@ -1,0 +1,72 @@
+.footer {
+font-family: "Shabnam";
+font-weight: normal;
+font-style: normal;
+src: url("/fonts/Shabnam/Shabnam.eot") format("embedded-opentype"),
+url("/fonts/Shabnam/Shabnam.woff") format("woff"),
+url("/fonts/Shabnam/Shabnam.ttf") format("truetype");
+}
+
+/* p,
+h1,
+h2,
+h3,
+h4,
+b {
+font-family: "Shabnam";
+text-align: justify;
+} */
+
+/* .changehovercolor:hover {
+background-color: white !important;
+
+div {
+color: black !important;
+}
+
+i {
+color: black !important;
+}
+} */
+
+/* .changehoverstyle:hover {
+background-color: #c32939;
+
+div {
+color: white !important;
+}
+
+i {
+color: white !important;
+}
+} */
+
+@media only screen and (max-width: 800px) {
+.footer {
+display: none;
+}
+}
+
+/* @media screen and (max-width: 767px) {
+.changefont {
+font-size: 0.9rem !important;
+}
+} */
+
+/* Small screens (e.g., mobile devices) */
+@media screen and (max-width: 767px) {
+.changefont {
+font-size: 0.8rem !important;
+}
+}
+
+@media screen{
+.changefont {
+font-size: calc(10px + 0.390625vw) !important;
+}
+}
+
+
+.nav-fixed #layoutSidenav #layoutSidenav_nav {
+height: 100%;
+}
